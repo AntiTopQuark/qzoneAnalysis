@@ -18,7 +18,7 @@ def get_cookie():
 
     driver = webdriver.Chrome(executable_path='E:\\chromedriver\\chromedriver.exe', chrome_options=chrome_options)
     driver.get('https://qzone.qq.com/')
-    
+
     time.sleep(10)#扫码登录
     # driver.find_element_by_id('login_button').click()
 
